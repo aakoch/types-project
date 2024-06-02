@@ -1,0 +1,21 @@
+{
+  "name": "@foo-dog/types",
+  "version": "0.1.0",
+  "description": "Typescript types for foo-dog",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["foo-dog", "types"],
+  "author": "Adam Koch (aakoch)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/unist": "^3.0.2"
+  },
+  "types": "dist/index.d.ts"
+}
