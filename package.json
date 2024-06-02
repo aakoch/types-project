@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "postversion": "git push && git push --tags"
   },
   "keywords": ["foo-dog", "types"],
   "author": "Adam Koch (aakoch)",
