@@ -13,7 +13,7 @@
     "types"
   ],
   "author": "Adam Koch (aakoch)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
   },
