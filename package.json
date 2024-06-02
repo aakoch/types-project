@@ -1,6 +1,6 @@
 {
   "name": "@foo-dog/types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript types for foo-dog",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "clean": "rm -rf dist",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["foo-dog", "types"],
+  "keywords": [
+    "foo-dog",
+    "types"
+  ],
   "author": "Adam Koch (aakoch)",
   "license": "ISC",
   "devDependencies": {
