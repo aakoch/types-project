@@ -1,5 +1,5 @@
 import { Node, Data, Parent, Position } from "unist";
-export type FooDogNodeType = 'rootType' | 'tag' | 'nonTagType' | 'text' | "html_comment" | "unbuf_code" | "comment" | "attrs_end" | 'doctype' | 'mixin' | 'mixin_call';
+export type FooDogNodeType = 'rootType' | 'tag' | 'nonTagType' | 'text' | 'html_comment' | 'unbuf_code' | 'comment' | 'attrs_end' | 'doctype' | 'mixin' | 'mixin_call' | 'case' | 'when' | 'default';
 export interface Attribute {
     name: string;
     val: string;
